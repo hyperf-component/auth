@@ -1,0 +1,38 @@
+{
+    "name": "hyperf-component/auth",
+    "type": "library",
+    "description": "The auth component for Hyperf.",
+    "keywords": [
+        "hyperf",
+        "v3.1"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "guandeng",
+            "email": "guandeng@hotmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hyperf-component/components/issues",
+        "source": "https://github.com/hyperf-component/components"
+    },
+    "autoload": {
+        "psr-4": {
+            "HyperfComponent\\Auth\\": "src/"
+        }
+    },
+    "require": {
+        "hyperf-component/hashing": "~3.1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "hyperf": {
+            "config": "HyperfComponent\\Auth\\ConfigProvider"
+        },
+        "branch-alias": {
+            "dev-main": "3.1-dev"
+        }
+    }
+}
